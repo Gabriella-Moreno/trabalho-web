@@ -1,0 +1,390 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.body-2{
+    background-image: url(../img/fundo1.webp);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+
+.header{
+    background: linear-gradient(120deg, #ab23b8 0%, #5a185c 100%);
+    padding: 24px;
+    text-align: center;
+    color: #FFF;
+}
+
+.form{
+    padding: 18px;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+.form button{
+    background-color: #ab23b8;
+    color: #FFF;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.pagi{
+    background-color: #ab23b8;
+    color: #FFF;
+    width: 20%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Página inicial*/
+header{
+    padding: 0px 80px;
+    background-color: #ab23b8;
+    border-bottom: solid 3px #5a185c; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.body-1{
+    text-align: center;
+    background-color: #a5a5a5;
+}
+
+.menu{
+    display: flex;
+    list-style: none; 
+    width: 400px;    
+    justify-content: space-around; 
+    padding-right: 40px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgba(31, 29, 29, 0.55);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.titulo{
+    color: rgba(31, 29, 29, 0.55);
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    margin-top: 250px;
+}
+
+.subtitulo{
+    color: rgba(31, 28, 28, 0.55);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+span{
+    background-color: rgba(100, 22, 124, 0.7);
+    padding: 4px 4px;
+    margin: 0 3px;
+}
+
+.form-news{
+    border-top: solid 1px #ccc;
+    padding: 25px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.titulo-news{
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.titulo-news b{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; 
+    margin: 20px;
+}
+
+.link-rede{
+    display: inline-block;
+}
+
+.link-rede a{
+    color: #000;
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    margin: 3px;
+}
+
+.link-rede a i{
+    font-size: 20px !important; 
+    margin-left: 0;
+}
+
+.padrao{
+    box-sizing: border-box;
+    width: 300px;
+    text-align: left;
+}
+
+footer{
+    background-color: #1a1818;
+    border-top: solid 3px #5a185c; ;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+
+
+/*Página de imóveis*/
+
+.link-inic{
+    align-items: center;
+}
+
+.h-imovel{
+    background-color: #ab23b8;
+    padding: 20px 80px;
+    border-bottom: solid 3px #5a185c; 
+    display: flex; 
+    justify-content: space-between;    
+    align-items: center; 
+}
+
+.campo-a{
+    background-color: #FFF;
+    border-top-left-radius: 50px;  
+    border-bottom-left-radius: 50px;  
+    height: 30px;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #7b7b7b;
+    border: solid 1px #ccc;
+}
+
+.campo-b{
+    background-color: #FFF;
+    height: 30px;
+    width: 220px;
+    padding: 5px 10px;
+    color: #7b7b7b;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    margin-left: -1px;
+}
+
+.campo-c{
+    background-color: #5a185c;
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px;  
+    height: 30px;
+    width: 80px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #FFF;
+    border: solid 1px transparent;
+    font-weight: 600; 
+}
+
+.form-imov{
+    display: flex;
+}
+
+.vitrine{
+    padding: 10px 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    border: solid 1px #ccc;
+    width: 20%;
+    padding: 20px;
+}
+
+.item img{  
+    width: 100%;
+}
+
+.desc{
+    text-align: center; 
+    font-size: 12px;
+    color: #7b7b7b;
+    text-transform: uppercase;  
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+}
+
+.endereco{
+    text-align: start;  
+    font-size: 12px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+    font-weight: 300;    
+}
+
+.preco{
+    text-align: center;
+    font-size: 16px;
+    color: #D10024;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+    font-weight: 600;    
+}
+
+.infos{
+    min-height: 250px;
+}
+
+.box-reserva{
+    text-align: center;
+}
+
+.reserva{
+    background-color: #ab23b8;
+    color: #FFF;
+    width: 150px;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20x;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-inic{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*Página de reserva*/
+.body-4{
+    background-image: url(../img/fundo1.webp);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links-inf{
+    display: flex;
+    margin-top: 50px; 
+}
+
+.link-pag{
+    margin-right: 20px;
+}
+
+/*Página de pagamento*/
+.body-5{
+    background-image: url(../img/fundo2.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Página de avaliação*/
+.body-6{
+    background-image: url(../img/fundo3.webp);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-content select{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+.form-content textarea{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}

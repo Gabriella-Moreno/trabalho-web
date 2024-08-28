@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-5">
+    
+    <div class="container">
+        <section class="header">
+            <h2>Pagamento</h2>
+        </section>
+
+        <form id="form" class="form">
+          <div class="form-content">
+                <label for="date">Data de pagamento</label>
+                <input
+                    type="date"
+                    id="data_pagamento"
+                    required
+                />
+            </div>  
+
+            <div class="form-content">
+                <label for="MetPagamento">Método de pagamento</label>
+                <select id="MetPagamento" required>
+                    <option value="">Selecione um método</option>
+                    <option value="C">Cartão</option>
+                    <option value="D">Dinheiro</option>
+                    <option value="P">Pix</option>
+                    <option value="B">Boleto</option>
+                </select>
+            </div>  
+
+            <button type="submit">Pagar</button>
+
+        </form>
+    </div>
+
+    <a href="index.html" class="pagi">Voltar à página inicial</a>
+
+</body>
+</html>
